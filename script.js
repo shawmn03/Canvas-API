@@ -33,7 +33,7 @@ function createRandomHeart() {
 function animate() {
   ctx.clearRect(0, 0, canvas.width, canvas.height); 
   
-  if (Math.random() < 0.1) {
+  if (Math.random() < 1) {
     createRandomHeart();
   }
 
